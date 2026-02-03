@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidential Ball — Приглашение</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Floating Particles -->
+    <div class="particles"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Envelope -->
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope" id="envelope">
+                <!-- Envelope Flap -->
+                <div class="envelope-flap"></div>
+
+                <!-- Letter Inside -->
+                <div class="letter" id="letter">
+                    <div class="letter-content">
+                        <!-- Red Ribbon -->
+                        <div class="ribbon"></div>
+
+                        <!-- Letter Header -->
+                        <div class="letter-header">
+                            <p class="letter-date">14 февраля 2026</p>
+                        </div>
+
+                        <!-- Main Invitation Text -->
+                        <div class="letter-body">
+                            <h1 class="main-title">Presidential Ball</h1>
+
+                            <div class="divider">
+                                <span></span>
+                                <span class="diamond">◆</span>
+                                <span></span>
+                            </div>
+
+                            <p class="invitation-question">
+                                Будешь ли ты<br>
+                                <span class="highlight">моей парой?</span>
+                            </p>
+
+                            <div class="event-info">
+                                <div class="info-item">
+                                    <span class="icon">📅</span>
+                                    <span>14 февраля</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="icon">🕖</span>
+                                    <span>19:00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Response Buttons -->
+                        <div class="response-buttons">
+                            <button class="btn btn-yes" id="btnYes">
+                                <span class="btn-text">Да! �</span>
+                            </button>
+                            <button class="btn btn-maybe" id="btnMaybe">
+                                <span class="btn-text">Подумаю...</span>
+                            </button>
+                        </div>
+
+                        <!-- Signature -->
+                        <div class="letter-signature">
+                            <p>С любовью,</p>
+                            <p class="signature-name">♥</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Envelope Body -->
+                <div class="envelope-body"></div>
+            </div>
+
+            <!-- Click Hint -->
+            <p class="click-hint" id="clickHint">Нажми, чтобы открыть ✉️</p>
+        </div>
+    </div>
+
+    <!-- Success Overlay -->
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-content">
+            <div class="hearts-explosion"></div>
+            <h2>Ура! 🎉</h2>
+            <p>Жду тебя на балу!</p>
+            <div class="confetti"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
